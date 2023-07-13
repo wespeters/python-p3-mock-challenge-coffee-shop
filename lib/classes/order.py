@@ -15,7 +15,7 @@ class Order:
         customer.coffees(coffee)
 
     @property
-    def price(self) -> int:
+    def price(self):
         return self._price
 
     @price.setter
